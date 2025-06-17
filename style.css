@@ -16,7 +16,7 @@ header {
 
 /* Personal Header Styling */
 #personal-header {
-    background: #000066;
+    background: #669999;
     color: #F1F1F1;
     padding: 30px;
     display: flex;
@@ -27,7 +27,7 @@ header {
 .left-links .btn {
     display: inline-block;
     padding: 12px 20px;
-    background: #669999; /* Change to your preferred color */
+    background: #527a7a; /* Change to your preferred color */
     color: white;
     font-size: 1rem;
     font-weight: bold;
