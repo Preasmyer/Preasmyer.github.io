@@ -3,7 +3,7 @@ let pdfDoc = null,
     canvas = document.getElementById("pdf-canvas"),
     ctx = canvas.getContext("2d");
 
-pdfjsLib.getDocument("assets/my_project.pdf").promise.then(doc => {
+pdfjsLib.getDocument("assets/Disaster_Relief.pdf").promise.then(doc => {
     pdfDoc = doc;
     renderPage(pageNum);
 });
