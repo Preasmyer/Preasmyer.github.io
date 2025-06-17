@@ -20,17 +20,42 @@ header {
     color: white;
     padding: 30px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between; /* Ensures left, center, and right alignment */
 }
 
-#personal-header img {
+.left-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-links .btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.left-links .btn:hover {
+    background: #0056b3;
+}
+
+.bio {
+    text-align: center;
+    flex: 1; /* Allows the bio to take up equal space */
+}
+
+.profile-img img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 10px;
 }
+
 
 /* Bio Section */
 .bio h1 {
