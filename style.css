@@ -39,7 +39,7 @@ header {
 }
 
 .left-links .btn:hover {
-    background: #218838; /* Darker shade on hover */
+    background: #3d5c5c;
 }
 
 
@@ -55,8 +55,8 @@ header {
 }
 
 .profile-img img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
