@@ -139,4 +139,37 @@ header {
     margin: 5px 0;
 }
 
+/* For one of the projects DR*/
+
+.pdf-viewer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pdf-canvas {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+}
+
+.pdf-controls {
+    margin-top: 10px;
+}
+
+.pdf-controls button {
+    background: #527a7a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.pdf-controls button:hover {
+    background: #3d5c5c;
+}
+
+
 
