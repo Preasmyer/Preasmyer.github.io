@@ -24,12 +24,24 @@ header {
     justify-content: space-between;
 }
 
-.left-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 20%; /* Ensures links are positioned to the left */
+.left-links .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #28a745; /* Change to your preferred color */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline */
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
+
+.left-links .btn:hover {
+    background: #218838; /* Darker shade on hover */
+}
+
 
 .bio {
     text-align: center;
