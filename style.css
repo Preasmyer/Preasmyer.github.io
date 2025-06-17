@@ -84,36 +84,10 @@ header {
     background: #3d5c5c;
 }
 
-#courses-content {
-    display: flex;
-    flex-wrap: wrap; /* Enables responsive alignment */
-    justify-content: center; /* Centers the content */
-    gap: 20px; /* Adds space between columns */
-}
-
-#courses-content h2 {
-    width: 30%; /* Each heading takes up a portion of the row */
-    text-align: center;
-    color: #007bff;
-}
-
-#courses-content ul {
-    width: 30%; /* Ensures lists align under headings */
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-}
-
-#courses-content li {
-    font-size: 1rem;
-    margin: 5px 0;
-}
-
-
 .content {
     display: none;
-    background: white;
-    transition: opacity 0.3s ease-in-out;
+    background: #eff5f5;
+    transition: opacity 0.5s ease-in-out;
     padding: 15px;
     margin-top: 10px;
     border-radius: 8px;
@@ -126,7 +100,7 @@ header {
 }
 
 .content h2 {
-    color: #007bff;
+    color: #1f2e2e;
 }
 
 .content ul {
