@@ -21,28 +21,49 @@
     </div>
 </header>
 
-    <header>
-        <h1>Projects</h1>
-        <p>A collection of my work in Data Science.</p>
-    </header>
-    <main>
-        <section id="machine-learning">
-            <h2>Machine Learning</h2>
-            <div class="project"><a href="ML1.html">Natural Disaster Relief: Locating Displaced Persons Using Aerial Imagery</a></div>
-            <div class="project"><a href="YOUR_PROJECT_LINK_2">Project Title 2</a></div>
-        </section>
+    <div class="collapsible-section">
+    <button class="toggle-btn" onclick="toggleSection('projects-content')">Projects ▼</button>
+    <div id="projects-content" class="content">
+        <h2>Machine Learning</h2>
+        <ul>
+            <li><a href="YOUR_PROJECT_LINK_1">Project 1</a></li>
+            <li><a href="YOUR_PROJECT_LINK_2">Project 2</a></li>
+        </ul>
+        <h2>Financial Modeling</h2>
+        <ul>
+            <li><a href="YOUR_PROJECT_LINK_3">Project 3</a></li>
+            <li><a href="YOUR_PROJECT_LINK_4">Project 4</a></li>
+        </ul>
+    </div>
+</div>
 
-        <section id="financial-modeling">
-            <h2>Financial Modeling</h2>
-            <div class="project"><a href="YOUR_PROJECT_LINK_3">Project Title 3</a></div>
-            <div class="project"><a href="YOUR_PROJECT_LINK_4">Project Title 4</a></div>
-        </section>
+<div class="collapsible-section">
+    <button class="toggle-btn" onclick="toggleSection('courses-content')">Courses Taken ▼</button>
+    <div id="courses-content" class="content">
+        <h2>Mathematics</h2>
+        <ul>
+            <li>Calculus I, II, III</li>
+            <li>Linear Algebra</li>
+        </ul>
+        <h2>Computer Science</h2>
+        <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>Artificial Intelligence</li>
+        </ul>
+    </div>
+</div>
 
-        <section id="optimization">
-            <h2>Optimization</h2>
-            <div class="project"><a href="YOUR_PROJECT_LINK_5">Project Title 5</a></div>
-            <div class="project"><a href="YOUR_PROJECT_LINK_6">Project Title 6</a></div>
-        </section>
+<div class="collapsible-section">
+    <button class="toggle-btn" onclick="toggleSection('career-content')">Career Highlights ▼</button>
+    <div id="career-content" class="content">
+        <h2>Notable Achievements</h2>
+        <ul>
+            <li>Published research in Bayesian statistics</li>
+            <li>Developed a portfolio optimization model</li>
+        </ul>
+    </div>
+</div>
+
     </main>
     <script src="script.js"></script>
 </body>
