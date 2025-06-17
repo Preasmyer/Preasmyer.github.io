@@ -18,17 +18,20 @@
     </header>
 
     <!-- Slideshow -->
-    <div class="slideshow">
-        <img src="assets/ml_image1.jpg" class="slide" alt="Slide 1">
-        <img src="assets/ml_image2.jpg" class="slide" alt="Slide 2">
-        <img src="assets/ml_image3.jpg" class="slide" alt="Slide 3">
-        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    <div class="pdf-viewer">
+        <canvas id="pdf-canvas"></canvas>
+        <div class="pdf-controls">
+            <button onclick="prevPage()">&#10094; Previous</button>
+            <button onclick="nextPage()">Next &#10095;</button>
+        </div>
     </div>
+
+    
 
     <!-- Data Link -->
     <p><a href="assets/Project_p2_combined_code.Rmd" target="_blank" class="btn">View Compiled R Code (R Markdown File)</a></p>
-
-    <script src="script.js"></script> <!-- Links to your JavaScript -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="javascript.js"></script> <!-- Links to your JavaScript -->
 </body>
 </html>
