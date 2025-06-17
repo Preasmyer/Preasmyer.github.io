@@ -24,6 +24,32 @@ header {
     justify-content: space-between;
 }
 
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 15px;
+}
+
+.button-group .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #527a7a;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button-group .btn:hover {
+    background: #3d5c5c;
+}
+
+
 .left-links .btn {
     display: inline-block;
     padding: 12px 20px;
