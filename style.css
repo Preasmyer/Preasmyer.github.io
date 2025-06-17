@@ -21,32 +21,25 @@ header {
     padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ensures left, center, and right alignment */
+    justify-content: space-between;
 }
 
 .left-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.left-links .btn {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.left-links .btn:hover {
-    background: #0056b3;
+    width: 20%; /* Ensures links are positioned to the left */
 }
 
 .bio {
     text-align: center;
-    flex: 1; /* Allows the bio to take up equal space */
+    flex-grow: 1; /* Expands the bio to take up the central space */
+}
+
+.profile-img {
+    width: 20%; /* Ensures the image is positioned to the right */
+    display: flex;
+    justify-content: flex-end;
 }
 
 .profile-img img {
@@ -56,31 +49,6 @@ header {
     object-fit: cover;
 }
 
-
-/* Bio Section */
-.bio h1 {
-    font-size: 1.8rem;
-    margin: 10px 0;
-}
-
-.bio p {
-    font-size: 1rem;
-    max-width: 600px;
-}
-
-.bio .btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.bio .btn:hover {
-    background: #0056b3;
-}
 
 /* Projects Section */
 #projects {
