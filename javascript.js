@@ -12,10 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function toggleSection(sectionId) {
     const content = document.getElementById(sectionId);
-    if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
+    if (content.classList.contains("show")) {
+        content.classList.remove("show");
+        setTimeout(() => content.style.display = "none", 300); // Delayed hide for smooth transition
     } else {
-        content.style.display = "none";
+        content.style.display = "block";
+        setTimeout(() => content.classList.add("show"), 10); // Ensures transition starts properly
     }
 }
+
 
