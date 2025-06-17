@@ -18,3 +18,4 @@ function toggleSection(sectionId) {
         content.style.display = "none";
     }
 }
+
