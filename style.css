@@ -70,7 +70,7 @@ header {
 
 .toggle-btn {
     width: 100%;
-    background: #007bff;
+    background: #527a7a;
     color: white;
     border: none;
     padding: 12px 18px;
@@ -81,7 +81,7 @@ header {
 }
 
 .toggle-btn:hover {
-    background: #0056b3;
+    background: #3d5c5c;
 }
 
 .content {
