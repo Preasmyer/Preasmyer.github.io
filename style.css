@@ -16,8 +16,8 @@ header {
 
 /* Personal Header Styling */
 #personal-header {
-    background: #222;
-    color: white;
+    background: #000066;
+    color: #F1F1F1;
     padding: 30px;
     display: flex;
     align-items: center;
