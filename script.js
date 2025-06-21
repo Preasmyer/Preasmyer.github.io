@@ -6,7 +6,7 @@ let pdfDoc = null,
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
 
 
-pdfjsLib.getDocument("assets/DS 6030 - Project Part 2.pdf").promise.then(doc => {
+pdfjsLib.getDocument("assets/Disaster_Relief_Project.pdf").promise.then(doc => {
     pdfDoc = doc;
     renderPage(pageNum);
 });
